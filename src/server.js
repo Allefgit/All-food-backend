@@ -46,6 +46,6 @@ app.use((error, req, res, next) =>{
 })
 
 //usado para acessar a porta automaticamente
-const PORT = process.env.SERVER_PORT || 3333
+const PORT = process.env.PORT || 3333
 //mostra que o servidor está no ar
 app.listen(PORT, () => {console.log(`Server is running on port`, PORT)}) 
